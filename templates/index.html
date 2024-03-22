@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Stream</title>
+</head>
+<body>
+    <h1>Título de tu página</h1>
+    <p>Aquí puedes agregar una descripción breve de tu página.</p>
+
+    <!-- Formulario para ingresar la URL de la cámara Tapo -->
+    <form action="/video_feed" method="get">
+        <label for="username">Nombre de usuario:</label>
+        <input type="text" id="username" name="username" placeholder="Nombre de usuario">
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" placeholder="Contraseña">
+
+        <label for="ip_address">Dirección IP:</label>
+        <input type="text" id="ip_address" name="ip_address" placeholder="Dirección IP de la cámara">
+
+        <button type="submit">Iniciar transmisión</button>
+    </form>
+
+    <div id="videoContainer">
+        <!-- El video se mostrará aquí -->
+    </div>
+
+    <!-- Enlace para retroceder y elegir otra cámara -->
+    <a href="/">Retroceder para elegir otra cámara</a>
+
+    <div>
+        <h2>Enlaces directos</h2>
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+        </ul>
+    </div>
+</body>
+</html>
+
+
+
+
